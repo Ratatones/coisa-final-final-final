@@ -1,0 +1,140 @@
+ul, li, p, a {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: Arial;
+}
+
+body {
+    width: 100%;
+    background-color: #55467A;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.header {
+    background-color: #1b0133;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px;
+}
+
+.logo {
+    margin-left: 30px;
+}
+
+.logo p {
+    color: #fff;
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+.search {
+    width: 43%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 3px;
+}
+
+.search input {
+    padding: 8px;
+    font-size: 13px;
+    font-style: italic;
+    border-radius: 13px;
+    border-style: hidden;
+    width: 100%;
+}
+
+.carrinho, .corpo {
+    margin-left: 30px;
+    height: 2.9rem;
+    margin: 25px;
+}
+
+.burgue {
+    height: 1.7rem;
+    margin: 25px;
+}
+
+.coisasx {
+    max-height: 0px;
+    display: flex;
+    margin-bottom: 440px;
+    margin-left: 40px;
+    margin: 75px;
+}
+
+.banheiro, .sala, .quarto, .lavanderia, .cozinha {
+    background-color: #55467A;
+    height: 400px;
+    
+
+}
+
+.products {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    background-color: #55467A;
+}
+
+.product {
+    background-color: #55467A;
+    height: fit-content;
+    padding: 0px;
+    border: solid black 2px;
+    border-radius: 10px;
+    margin: 15px;
+}
+
+.product * {
+    margin: 20px;
+}
+
+.product img {
+    height: 210px;
+    margin: 13px;
+}
+
+.product p {
+    text-decoration: underline;
+    font-size: 1.3rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: oblique;
+    margin-top: 5px;
+    margin-bottom: 12px;
+    margin-left: 2.3rem;
+    align-items: center;
+    color: #fff;
+}
+
+.product h6 {
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 5rem;
+    margin-bottom: 15px;
+    color: rgba(250, 111, 111, 0.952);
+}
+
+.footer {
+    background: rgb(64, 25, 85);
+    background: linear-gradient(0deg, rgba(64, 25, 85, 1) 48%, rgba(85, 70, 122, 1) 100%);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3%;
+    padding-top: 120px;
+}
+
+.logoss {
+    margin-top: 65px;
+    margin-left: 20px;
+}
